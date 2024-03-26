@@ -31,7 +31,8 @@ Durante el desarrollo del proyecto, se han generado los siguientes archivos:
 
 1. **Datasets**: Se dispone de 1 archivo .xlsx para su análisis en el proyecto. Este archivos incluye información sobre homicidios y victimas de homicidios. Estos datasets han sido procesados mediante un proceso ETL (Extract, Transform, Load) y serán utilizados en el EDA (Exploratory Data Analysis) y en Power BI.
 
-2. **ETL**: En este archivo en Python, se han realizado transformaciones y limpieza de los datos para que sean más manejables durante el análisis. Algunas de las   acciones realizadas incluyen:
+2. **ETL**: En este archivo en Python, se han realizado transformaciones y limpieza de los datos para que sean más manejables durante el análisis. Para visualizarlo más a detalle, ingresar a este [enlace](https://github.com/RafaelFAPROGRA/PI_DA_I/blob/main/1.%20ETL.ipynb).
+Algunas de las acciones realizadas incluyen:
 
 - Eliminación de columnas redundantes, como año, mes y día.
 - Limpieza de datos en columnas con valores diferentes, como "SD", ".", etc.
@@ -40,6 +41,8 @@ Durante el desarrollo del proyecto, se han generado los siguientes archivos:
 - Agregar una columna de rango etario en lugar de la columna de edad.
 - Reemplazo de valores faltantes y atípicos con NaN.
 - Finalizando con dos archivos .xlsx para utilizarlo como Datasets para usarlo en el EDA y Power BI.
+
+  
 
 3. **EDA**: Se han realizado visualizaciones y tablas para explorar los datos en detalle. Algunas de las acciones realizadas incluyen:
 
@@ -66,7 +69,7 @@ Durante el desarrollo del proyecto, se han generado los siguientes archivos:
 
    <p align="center">     <img src= "Imágenes/image-6.png" </p>
 
-   - Podemos visualizar que en mayor medida, son los _'hombres'_, los que sufrieron de siniestros viales y que causaron su fallecimiento.
+   - Podemos visualizar que en mayor medida, son los _'hombres'_, los que sufrieron de siniestros viales y que causaron su fallecimiento. Para visualizarlo más a detalle, ingresar a este [enlace](https://github.com/RafaelFAPROGRA/PI_DA_I/blob/main/2.%20EDA.ipynb)
 
 
 
@@ -78,8 +81,18 @@ Durante el desarrollo del proyecto, se han generado los siguientes archivos:
   - Página de Víctimas: En esta página se muestra el perfil de las víctimas. Conocer el perfil de las víctimas ayuda a enfocar los esfuerzos para reducir la cantidad de víctimas y siniestros.
   
   - Página de KPI: En esta página se presentan los KPI que permiten evaluar las acciones tomadas por el gobierno para disminuir los siniestros y la cantidad de víctimas. 
-  
-  El dashboard en Power BI brinda una visión clara y concisa de la problemática de los siniestros viales y permite tomar acciones basadas en datos para reducir su incidencia y proteger a las víctimas.
+      
+      **Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior.**
+      - En este caso, en el último semestre, la tasa de homicios fue de 1.364, representando una disminución del 30.952% al semestre anterior, cumpliendo ahi el KPI mostrado.
+
+      **Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior.**
+      - En este caso, en el año 2021 hubo 46 victimas fatales relacionado a accidentes en moto, comparado al año anterior que hubo 29, logra un aumento del 58.62%, con lo que no cumpliría con el KPI, agregar también que podemos justificar ya que en el 2020 fue el año del inicio de la pandemia por lo que los casos en ese año disminuyeron considerablemente.
+
+
+     <p align="center">     <img src= "Imágenes/KPI.jpg" </p>
+
+
+  El [dashboard](https://github.com/RafaelFAPROGRA/PI_DA_I/blob/main/PI_DA_I_Dashboard.pbix) en Power BI brinda una visión clara y concisa de la problemática de los siniestros viales y permite tomar acciones basadas en datos para reducir su incidencia y proteger a las víctimas.
 
 
 
