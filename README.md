@@ -89,7 +89,7 @@ Algunas de las acciones realizadas incluyen:
       - En este caso, en el año 2021 hubo 46 victimas fatales relacionado a accidentes en moto, comparado al año anterior que hubo 29, logra un aumento del 58.62%, con lo que no cumpliría con el KPI, agregar también que podemos justificar ya que en el 2020 fue el año del inicio de la pandemia por lo que los casos en ese año disminuyeron considerablemente.
 
 
-     <p align="center">     <img src= "Imágenes/KPI.jpg" </p>
+     <p align="center">     <img src= "Imágenes/KPI.png" </p>
 
 
   El [dashboard](https://github.com/RafaelFAPROGRA/PI_DA_I/blob/main/PI_DA_I_Dashboard.pbix) en Power BI brinda una visión clara y concisa de la problemática de los siniestros viales y permite tomar acciones basadas en datos para reducir su incidencia y proteger a las víctimas.
